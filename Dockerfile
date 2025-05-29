@@ -1,5 +1,6 @@
 # Stage 1: Build
-FROM maven:3.8.7-openjdk-17 AS build
+FROM maven:3.8.7-openjdk-17-slim AS build
+
 
 ENV APP_DIR=/app
 
