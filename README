@@ -1,0 +1,10 @@
+docker compose start
+docker compose stop
+
+banco do docker é outro. Preciso acessar pelo terminal
+
+docker exec -it sistemas_operacionais-postgres-1 psql -U postgres -d users_so
+
+\dt  -- lista tabelas
+SELECT * FROM users;  -- se sua tabela de usuários se chama "users"
+

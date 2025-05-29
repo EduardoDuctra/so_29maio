@@ -1,0 +1,111 @@
+2025-05-29T13:06:41.952Z  INFO 1 --- [sistemas_operacionais] [main] c.c.s.SistemasOperacionaisApplication    : Starting SistemasOperacionaisApplication v0.0.1-SNAPSHOT using Java 17.0.2 with PID 1 (/app/app.jar started by root in /app)
+2025-05-29T13:06:41.964Z  INFO 1 --- [sistemas_operacionais] [main] c.c.s.SistemasOperacionaisApplication    : No active profile set, falling back to 1 default profile: "default"
+2025-05-29T13:06:43.310Z  INFO 1 --- [sistemas_operacionais] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-29T13:06:43.384Z  INFO 1 --- [sistemas_operacionais] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 59 ms. Found 1 JPA repository interface.
+2025-05-29T13:06:44.156Z  INFO 1 --- [sistemas_operacionais] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-05-29T13:06:44.179Z  INFO 1 --- [sistemas_operacionais] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-29T13:06:44.180Z  INFO 1 --- [sistemas_operacionais] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-05-29T13:06:44.232Z  INFO 1 --- [sistemas_operacionais] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-05-29T13:06:44.234Z  INFO 1 --- [sistemas_operacionais] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2121 ms
+2025-05-29T13:06:44.508Z  INFO 1 --- [sistemas_operacionais] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-29T13:06:44.591Z  INFO 1 --- [sistemas_operacionais] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.15.Final
+2025-05-29T13:06:44.645Z  INFO 1 --- [sistemas_operacionais] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-05-29T13:06:45.173Z  INFO 1 --- [sistemas_operacionais] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-29T13:06:45.252Z  INFO 1 --- [sistemas_operacionais] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-05-29T13:06:45.734Z  INFO 1 --- [sistemas_operacionais] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3e52ed5d
+2025-05-29T13:06:45.738Z  INFO 1 --- [sistemas_operacionais] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-05-29T13:06:45.853Z  WARN 1 --- [sistemas_operacionais] [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-05-29T13:06:45.892Z  INFO 1 --- [sistemas_operacionais] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 17.5
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-05-29T13:06:47.174Z  INFO 1 --- [sistemas_operacionais] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-05-29T13:06:47.312Z  INFO 1 --- [sistemas_operacionais] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-29T13:06:47.603Z  WARN 1 --- [sistemas_operacionais] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-05-29T13:06:48.117Z  INFO 1 --- [sistemas_operacionais] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-05-29T13:06:48.135Z  INFO 1 --- [sistemas_operacionais] [main] c.c.s.SistemasOperacionaisApplication    : Started SistemasOperacionaisApplication in 7.454 seconds (process running for 9.309)
+2025-05-29T13:06:55.956Z  INFO 1 --- [sistemas_operacionais] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-05-29T13:06:55.961Z  INFO 1 --- [sistemas_operacionais] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-05-29T13:06:55.966Z  INFO 1 --- [sistemas_operacionais] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2025-05-29T13:16:02.403Z  INFO 1 --- [sistemas_operacionais] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-29T13:16:02.437Z  INFO 1 --- [sistemas_operacionais] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-05-29T13:16:02.470Z  INFO 1 --- [sistemas_operacionais] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-05-29T13:16:02.494Z  INFO 1 --- [sistemas_operacionais] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-05-29T13:16:02.508Z  INFO 1 --- [sistemas_operacionais] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-05-29T13:16:14.316Z  INFO 1 --- [sistemas_operacionais] [main] c.c.s.SistemasOperacionaisApplication    : Starting SistemasOperacionaisApplication v0.0.1-SNAPSHOT using Java 17.0.2 with PID 1 (/app/app.jar started by root in /app)
+2025-05-29T13:16:14.327Z  INFO 1 --- [sistemas_operacionais] [main] c.c.s.SistemasOperacionaisApplication    : No active profile set, falling back to 1 default profile: "default"
+2025-05-29T13:16:15.760Z  INFO 1 --- [sistemas_operacionais] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-29T13:16:15.878Z  INFO 1 --- [sistemas_operacionais] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 94 ms. Found 1 JPA repository interface.
+2025-05-29T13:16:16.838Z  INFO 1 --- [sistemas_operacionais] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-05-29T13:16:16.867Z  INFO 1 --- [sistemas_operacionais] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-29T13:16:16.868Z  INFO 1 --- [sistemas_operacionais] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-05-29T13:16:16.924Z  INFO 1 --- [sistemas_operacionais] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-05-29T13:16:16.925Z  INFO 1 --- [sistemas_operacionais] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2481 ms
+2025-05-29T13:16:17.339Z  INFO 1 --- [sistemas_operacionais] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-29T13:16:17.527Z  INFO 1 --- [sistemas_operacionais] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.15.Final
+2025-05-29T13:16:17.594Z  INFO 1 --- [sistemas_operacionais] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-05-29T13:16:18.308Z  INFO 1 --- [sistemas_operacionais] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-29T13:16:18.402Z  INFO 1 --- [sistemas_operacionais] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-05-29T13:16:18.886Z  INFO 1 --- [sistemas_operacionais] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@65859b44
+2025-05-29T13:16:18.889Z  INFO 1 --- [sistemas_operacionais] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-05-29T13:16:18.991Z  WARN 1 --- [sistemas_operacionais] [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-05-29T13:16:19.070Z  INFO 1 --- [sistemas_operacionais] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 17.5
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-05-29T13:16:21.158Z  INFO 1 --- [sistemas_operacionais] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-05-29T13:16:21.314Z  INFO 1 --- [sistemas_operacionais] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-29T13:16:21.702Z  WARN 1 --- [sistemas_operacionais] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-05-29T13:16:22.334Z  INFO 1 --- [sistemas_operacionais] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-05-29T13:16:22.357Z  INFO 1 --- [sistemas_operacionais] [main] c.c.s.SistemasOperacionaisApplication    : Started SistemasOperacionaisApplication in 9.334 seconds (process running for 11.419)
+2025-05-29T13:16:28.900Z  INFO 1 --- [sistemas_operacionais] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-29T13:16:28.907Z  INFO 1 --- [sistemas_operacionais] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-05-29T13:16:28.914Z  INFO 1 --- [sistemas_operacionais] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-05-29T13:16:28.918Z  INFO 1 --- [sistemas_operacionais] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-05-29T13:16:28.941Z  INFO 1 --- [sistemas_operacionais] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-05-29T13:17:09.512Z  INFO 1 --- [sistemas_operacionais] [main] c.c.s.SistemasOperacionaisApplication    : Starting SistemasOperacionaisApplication v0.0.1-SNAPSHOT using Java 17.0.2 with PID 1 (/app/app.jar started by root in /app)
+2025-05-29T13:17:09.519Z  INFO 1 --- [sistemas_operacionais] [main] c.c.s.SistemasOperacionaisApplication    : No active profile set, falling back to 1 default profile: "default"
+2025-05-29T13:17:10.929Z  INFO 1 --- [sistemas_operacionais] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-29T13:17:11.102Z  INFO 1 --- [sistemas_operacionais] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 153 ms. Found 1 JPA repository interface.
+2025-05-29T13:17:12.936Z  INFO 1 --- [sistemas_operacionais] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-05-29T13:17:12.962Z  INFO 1 --- [sistemas_operacionais] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-29T13:17:12.963Z  INFO 1 --- [sistemas_operacionais] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-05-29T13:17:13.024Z  INFO 1 --- [sistemas_operacionais] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-05-29T13:17:13.026Z  INFO 1 --- [sistemas_operacionais] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3409 ms
+2025-05-29T13:17:13.434Z  INFO 1 --- [sistemas_operacionais] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-29T13:17:13.545Z  INFO 1 --- [sistemas_operacionais] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.15.Final
+2025-05-29T13:17:13.625Z  INFO 1 --- [sistemas_operacionais] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-05-29T13:17:14.625Z  INFO 1 --- [sistemas_operacionais] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-29T13:17:14.709Z  INFO 1 --- [sistemas_operacionais] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-05-29T13:17:15.237Z  INFO 1 --- [sistemas_operacionais] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@60928a61
+2025-05-29T13:17:15.250Z  INFO 1 --- [sistemas_operacionais] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-05-29T13:17:15.374Z  WARN 1 --- [sistemas_operacionais] [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-05-29T13:17:15.428Z  INFO 1 --- [sistemas_operacionais] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 17.5
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-05-29T13:17:17.942Z  INFO 1 --- [sistemas_operacionais] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-05-29T13:17:18.133Z  INFO 1 --- [sistemas_operacionais] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-29T13:17:18.535Z  WARN 1 --- [sistemas_operacionais] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-05-29T13:17:19.601Z  INFO 1 --- [sistemas_operacionais] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-05-29T13:17:19.622Z  INFO 1 --- [sistemas_operacionais] [main] c.c.s.SistemasOperacionaisApplication    : Started SistemasOperacionaisApplication in 11.219 seconds (process running for 12.659)
+2025-05-29T13:17:20.127Z  INFO 1 --- [sistemas_operacionais] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-05-29T13:17:20.128Z  INFO 1 --- [sistemas_operacionais] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-05-29T13:17:20.131Z  INFO 1 --- [sistemas_operacionais] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2025-05-29T13:18:31.660Z  INFO 1 --- [sistemas_operacionais] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-29T13:18:31.674Z  INFO 1 --- [sistemas_operacionais] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-05-29T13:18:31.682Z  INFO 1 --- [sistemas_operacionais] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-05-29T13:18:31.685Z  INFO 1 --- [sistemas_operacionais] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-05-29T13:18:31.703Z  INFO 1 --- [sistemas_operacionais] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
