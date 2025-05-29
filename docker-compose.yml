@@ -1,14 +1,24 @@
-version: '3.8'
+
 
 services:
+  app:
+    build: .
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./app-logs:/logs
+    restart: unless-stopped
+    depends_on:
+      - postgres
+
   postgres:
     image: postgres:latest
     restart: always
     environment:
-      - POSTGRES_DB=users_so
-      - POSTGRES_USER=postgres
-      - POSTGRES_PASSWORD=2016010124
+      POSTGRES_DB: users_so
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: 2016010124
     ports:
-      - '5432:5432'
+      - "5432:5432"
     volumes:
       - ./postgres-data:/var/lib/postgresql/data
