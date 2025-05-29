@@ -1,15 +1,13 @@
 # Stage 1: Build
 FROM maven:3.8.7-openjdk-17-slim AS build
 
-
 ENV APP_DIR=/app
-
 WORKDIR $APP_DIR
 
-# Clonar seu projeto do GitHub
+# Clonar o projeto do GitHub
 RUN git clone https://github.com/EduardoDuctra/so_29maio.git .
 
-# Build do projeto (assumindo Maven)
+# Build do projeto (pulando os testes para agilizar)
 RUN mvn clean install -DskipTests
 
 # Stage 2: Runtime
@@ -27,4 +25,5 @@ EXPOSE 8080
 
 VOLUME /logs
 
-ENTRYPOINT ["java", "-jar", "app.jar", "--logging.file=/logs/app.log"]
+# Ajuste na flag para arquivo de log no Spring Boot
+ENTRYPOINT ["java", "-jar", "app.jar", "--logging.file.name=/logs/app.log"]
